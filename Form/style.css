@@ -1,0 +1,47 @@
+body {
+    font-family: Open Sans;
+    background-color: #fff;
+}
+
+html {
+    background-color: pink;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.company {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+}
+
+.HeroText {
+    background-color: #F5F5F5;
+}
+
+button {
+    background-color: #089FE0;
+    ;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#mychbox {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}

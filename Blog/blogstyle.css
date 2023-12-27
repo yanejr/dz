@@ -1,0 +1,60 @@
+body {
+    background-color:#374151;
+    color:#fff;
+    font-family: Roboto;
+}
+header {
+    font-size:16px;
+}
+
+footer {
+    font-size:16px;
+}
+.text {
+    font-size: 14px;
+}
+section h1 {
+    font-size: 24px;
+}
+.Herotext {
+    font-size: 20px;
+}
+.justtex {
+    font-size: 16px;
+}
+
+input {
+    background-color: rgba(31, 41, 55, 0.60);
+    padding: 9px 0 12px 49px;
+    border-radius: 100px;
+    color:#fff;
+    margin: 80px 0 30px 226px;
+}
+ul {
+    list-style: none;
+    margin: 0 0 0 226px;
+}
+.text {
+    margin: 80px 0 14px 630px;
+}
+h1 {
+    margin:0 0 30px 458px;
+}
+.Name {
+    margin:0 0 25px 706px;
+}
+.textWho{
+    margin:0 0 25px 706px;
+}
+img {
+    margin: 0 262px 69px;
+}
+.HeroText{
+    margin:0 0 30px 367px;
+}
+.justtext{
+    margin: 0 0 107px 367px;
+}
+footer {
+    margin:0 0 77px 608px;
+}
