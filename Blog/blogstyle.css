@@ -1,0 +1,24 @@
+body {
+    background-color:#374151;
+    color:#fff;
+    font-family: Roboto;
+}
+header {
+    font-size:16px;
+}
+
+footer {
+    font-size:16px;
+}
+.text {
+    font-size: 14px;
+}
+section h1 {
+    font-size: 24px;
+}
+.Herotext {
+    font-size: 20px;
+}
+.justtex {
+    font-size: 16px;
+}
