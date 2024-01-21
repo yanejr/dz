@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+}
+
+.section_wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 24px;
+}
+
+.header_top {
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0;
+}
+
+.header_bottom {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+    color: #4E5D7C80;
+    margin-top: 24px;
+}
+
+.post-wrapper {
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 370px);
+    gap: 24px;
+}
+
+.post {
+    border: 1px solid #4E5D7C80;
+    border-radius: 8px;
+    padding: 93px 0 48px 40px;
+}
+
+.post_32 {
+    padding-top: 48px;
+}
+
+.post_blue {
+    background-color: #357EFE;
+    color: #FFF;
+}
+
+.post_paragraph_blue {
+    color: rgba(255, 255, 255, 0.60);
+    margin: 0;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.post_header {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    margin: 0
+}
+
+.post_paragraph {
+    color: #4E5D7C80;
+    margin: 0;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.post_summ {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid #4E5D7C14;
+    align-items: center;
+}
+
+.post_profit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid #4E5D7C14;
+    margin: 16px 0 16px 0;
+    align-items: center;
+}
+
+.post_profit_32 {
+    margin: 8px 0 8px 0;
+}
+
+.post_content {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.post_CostPerMonth {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.post_button {
+    padding: 12px 63px;
+    border-radius: 47px;
+    margin: 0;
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+.post_button-blue {
+    background-color: #357EFE;
+}
+
+.profit {
+    margin: 0 0 20px 0;
+    background-color: #1ABC9C;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 4px 16px;
+    width: 124px;
+    border-radius: 8px;
+    color: #FFF;
+}
+
+.profit_32 {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 100px;
+    background-color: #FFC736;
+}
+
+.post_button-light {
+    background-color: #FFFFFF;
+    color: #357EFE;
+}
+
+@media (max-width:1160px) {
+    .post-wrapper {
+        margin-top: 40px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 370px);
+        gap: 24px;
+    }
+}
+
+@media (max-width:460px) {
+    .header_bottom {
+        text-align: start;
+    }
+
+    .header_top {
+        text-align: start;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+    }
+}
